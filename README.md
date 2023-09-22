@@ -21,7 +21,8 @@ In the proposed encryption technique sequences are generated using a high-dimens
 map called the Henon map. After all operations a mask image is generated.
 ### 3. Scrambling
 pixel scrambling using Hilbert Curve.
-### 4. Diffusion refers to changing the individual pixel grey values that reduce the correlation between 
+### 4. Diffusion and Encryption
+Diffusion refers to changing the individual pixel grey values that reduce the correlation between 
 image pixels. In the diffusion stage, pixel values are modified to confuse the relationship between the 
 cipher and plain images. The pixels of the image from “The Henon map (T), scrambled image (I), and 
 the previous ciphered pixel (𝐶𝑝) are given to an XOR operation to obtain the pixels of the encrypted 
